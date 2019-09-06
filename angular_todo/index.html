@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO List</title>
+        <link rel="stylesheet" type="text/css" href="styles/style.css"/>
+        <script src="/scripts/angular.min.js"></script>
+    </head>
+    
+    <script src="/scripts/my_scripts.js"></script>
+    <body ng-app="todoApp">
+        <div ng-controller="todoCntrl as ctrl">
+            Task Name :<input type="text" ng-model="todoRec.tname"/>
+            Task Description :<input type="text" ng-model="todoRec.tdesc"/>
+            <input type="button" ng-click="ctrl.submitData()" value="Submit"/>
+            <br/>
+            <br/>
+            <div ng-show="showlist">
+                List of toDo's:<br/>
+                <ul ng-repeat="rec in todoLst">
+                    <li>{{rec.tname}}</li>
+                </ul>
+            </div>
+            
+        </div>
+    </body>
+</html>
