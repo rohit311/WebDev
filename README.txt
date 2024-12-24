@@ -1,1 +1,1 @@
-Repository for web development using HTML,Javascript(ES6),CSS.
+Repository for web development using HTML, Javascript(ES6), Typescript, CSS.
