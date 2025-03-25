@@ -1,0 +1,60 @@
+.date-picker-input {
+  width: 150px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 5px;
+}
+
+.date-picker-btn {
+  border-left: 1px solid black;
+}
+
+.month-changer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.break {
+  flex-basis: 100%;
+  height: 0;
+}
+
+.date-picker-content {
+  width: 150px;
+  height: 150px;
+  margin-top: 5px;
+  border: 1px solid black;
+  padding: 0px 5px;
+}
+
+.date-header {
+  width: 100%;
+  height: 30%;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: space-around;
+  align-content: space-between;
+  flex-wrap: wrap;
+}
+
+.week-days {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(7, auto);
+}
+
+.date-grid {
+  display: grid;
+  grid-template-columns: repeat(7, auto);
+  background-color: black;
+  grid-gap: 1px;
+}
+
+.grid-cell {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
