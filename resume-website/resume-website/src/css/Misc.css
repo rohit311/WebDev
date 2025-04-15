@@ -1,0 +1,12 @@
+.misc-container {
+  width: 80%;
+  margin: auto;
+  border: 1px solid black;
+  border-top: none;
+}
+
+.misc-container > div {
+  font-size: 25px;
+  font-weight: 400;
+  margin-left: 10px;
+}

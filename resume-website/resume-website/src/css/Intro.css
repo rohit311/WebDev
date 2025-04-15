@@ -1,0 +1,11 @@
+.intro-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+
+.intro-section p {
+  font-weight: bold;
+  font-size: 50px;
+}

@@ -1,0 +1,20 @@
+.details-section {
+  display: grid;
+  grid-auto-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.details-section > div {
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.projects, .work-experience {
+  border-right: 1px solid black;
+}
+
+.work-experience > div, .education > div {
+  margin-left: 10px;
+}

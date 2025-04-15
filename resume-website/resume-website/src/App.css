@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  border: 1px solid black;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  margin-top: 20%;
+}
