@@ -1,0 +1,2 @@
+- Start containers: `docker compose -f docker-compose.yaml up -d`
+- Stop containers: `docker compose -f docker-compose.yaml down`
